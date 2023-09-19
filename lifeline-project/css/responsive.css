@@ -1,0 +1,153 @@
+@media (max-width: 768px) {
+    .menu-toggle {
+   display: flex; /* Show the hamburger icon on mobile */
+   justify-content: flex-end; /* Align the icon to the right */
+   align-items: center; /* Center the icon vertically */
+   cursor: pointer;
+   margin-right: 40px; /* Add some right margin for spacing */
+  }
+  .nav-links {
+    flex-direction: column;
+    display: none;
+    background-color: #080808;
+    padding-top: 20px;
+    text-align: center;
+    max-width: 100%;
+    width:100%;
+  }
+  
+    .nav-links.active {
+        display: flex;
+    }
+    .slide {
+        flex: 0 0 100%;
+        transition: transform 1s ease-in-out;
+    }
+    img {
+        max-width: 100%;
+        height: 200px;
+    }
+    .overlay-text {
+        max-width: 100%; /* Adjust the maximum width as needed */
+        width:100%; /* Allow text to wrap */
+  }
+    .imgtext {
+      font-size: 15px;
+    }
+    
+    .p1 {
+      font-size: 10px;
+    }
+    .starting-content {
+        text-indent: 5px;
+      }
+      .starting-list li {
+        font-size: 14px;
+      }
+    .container {
+      padding: 10px;
+              }
+  
+    .top-7 {
+      font-size: 24px;
+              }
+
+
+              .event-content {
+                padding: 20px;
+            }
+        
+            .event-content h2 {
+                font-size: 24px;
+            }
+        
+            .event-content p {
+                font-size: 14px;
+            }
+
+    .benefits h2 {
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 20px;
+    text-decoration: underline;
+  }
+    
+  .benefit-list li {
+    flex-basis: calc(50% - 30px);
+  }
+  h2.top-7 {
+    margin-left: 100px;
+  }
+  .coursehead {
+      font-size: 20px;
+  }
+  .course li {
+      font-size: 11px;
+      float: left;
+      margin-left: 60px;
+  }
+  .course i {
+      font-size: 12px;
+      margin-left: -110px;
+  }
+  .instructors-content h2 {
+      /* text-align: center; */
+      float: left;
+      padding-top: 30px;
+      margin-left:110px;
+      text-decoration: underline;
+  }
+  .success-stories h2 {
+    margin-left:130px ;
+    font-size: 28px;
+    text-decoration: underline;
+  }
+  .dream h2 {
+              font-size: 16px;
+              padding-right: 40px;
+              margin-left: 10px;
+          }
+   .dream-list li {
+       font-size: 14px;
+       margin-left: 0;
+   }
+   .dreamtext {
+       font-size: 14px;
+       text-align: center;
+       padding: 50px 0px;
+   }
+   .career h2 {
+                  font-size: 18px;
+                  margin-left: 50px;
+              }
+  
+              .career p {
+                  font-size: 14px;
+              }
+  
+              .career-button {
+                  font-size: 16px;
+              }
+              .pricing-content h2{
+                margin-left: 130px;
+                text-decoration: underline;
+              }
+              .contact-info,
+              h2,
+              .social-icons p {
+                  margin-right: 0;
+                  text-align: center;
+              }
+  
+              .social-icons li {
+                  margin: 0 5px;
+              }
+              .social-icons img {
+              width: 40px;
+              height: max-content;
+          }
+  
+              .footer-logo {
+                  margin-right: 0;
+              }
+  }
